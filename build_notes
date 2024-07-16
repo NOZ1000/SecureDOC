@@ -1,0 +1,5 @@
+sudo docker build -t secure_doc_backend_3000 ./backend
+sudo docker run -p 3000:3000 -d secure_doc_backend
+
+sudo docker build -t secure_doc_frontend_3000 ./frontend
+sudo docker run -p 3080:80 -d secure_doc_frontend
